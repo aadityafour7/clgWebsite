@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Walchand College of Engineering</title>
+        <link rel="icon" href="images/idol.jpg" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <br>
+                <br>
+                <br><br><br>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="guidance.html">GUIDANCE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                
+                    <h1>Walchand College of Engineering, Sangli</h1>
+                    <pre style="color: red;">(An Autonomous Institute)
+Established in 1947
+                    </pre>        
+                    
+            </div>
+    
+        </section>
+
+<!-- ------- COURSE ------- -->
+
+<section class="course">
+    <h1>Courses we offer</h1>
+    <div class="row">
+        <div class="course-col" style="background-color:gray;">
+            <h3>Under Graduation Programme</h3>
+            <p style="color: greenyellow;">Undergraduate education is education conducted after secondary education and prior to postgraduate education. It typically includes all postsecondary programs up to the level of a bachelor's degree. BE in the case of our college.</p>
+        </div>
+        <div class="course-col" style="background-color: gray;">
+            <h3>Post Graduation Programme</h3>
+            <p style="color: greenyellow;">Post Graduate programs in Civil, Mechanical and Electrical Engineering and Diploma program in Industrial Electronics were introduced in 1971. In 1986 the UG and PG programs in Electronics Engineering and UG program in Computer Science and Engineering were introduced.</p>       
+        </div>
+    </div>
+</section>
+
+
+<!-- ------- CAMPUS ------- -->
+
+<section class="campus">
+    <h1>Our Campus</h1>
+    <p style="color: red; font-weight: bold;">Spread over 92 acres, our campus is filled with lush greenery with good connectivity of roads to the city and stations.</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/Library.jpg">
+            <div class="layer">
+                <h3>LIBRARY</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/idol.jpg">
+            <div class="layer">
+                <h3>IDOL</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/acadComplex.jpg">
+            <div class="layer">
+                <h3>ACADEMIC COMPLEX</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- ------- Footer -------  -->
+
+<section class="footer">
+    <p style="color: rgb(87, 9, 26);">
+        Made by Aaditya Khot
+        <br>
+        Copyright @ 2023
+        <br>
+            <a class="plain-link icons-blue" href="https://www.linkedin.com/in/aaditya-khot-111672229"><i class="fa fa-linkedin"></i></a>
+            <a class="plain-link icons-blue" href="https://github.com/aadityafour7"><i class="fa fa-github"></i></a>
+            <a class="plain-link icons-blue" href="https://instagram.com/aaditya._.47?igshid=MzRlODBiNWFlZA=="><i class="fa fa-instagram"></i></a>
+            <a class="plain-link icons-blue" href="mailto:aaditya.khot@walchandsangli.ac.in"><i class="fa fa-at"></i></a>
+    </p>
+</section>
+
+<!-- -------------JavaScript for toggle menu------------ -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
